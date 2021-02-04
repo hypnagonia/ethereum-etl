@@ -1,3 +1,11 @@
+# Harmony Blocks and Transactions Example
+```
+python3 ethereumetl.py export_blocks_and_transactions --start-block 5285800 --end-block 5285900 \
+--blocks-output blocks.csv --transactions-output transactions.csv \
+--provider-uri https://api.s0.b.hmny.io
+```
+
+
 # Ethereum ETL
 
 [![Build Status](https://travis-ci.org/blockchain-etl/ethereum-etl.png)](https://travis-ci.org/blockchain-etl/ethereum-etl)
